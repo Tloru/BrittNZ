@@ -2,7 +2,7 @@
 <head>
   <link rel="shortcut icon" type="image/x-ico" href="/favicon.ico"/>
 
-<!---all css goes below--->
+<!-- all css goes below -->
 <style>
 
 body{
@@ -72,6 +72,14 @@ div.section{
   background-attachment: fixed;
 }
 
+#work3{
+  background-image: url(maxresdefault.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #contact,#about{
   background-color: #ffffff;
   color: #000000;
@@ -100,26 +108,37 @@ img{
   margin-bottom: 50px;
 }
 
+img.navbar{
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
 div.navbar{
   position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 1px;
+  width: 70px;
+  height: 70px;
 }
 
 </style>
-<!---all css goes above--->
+<!-- all css goes above -->
 
 </head>
 <body>
-  <!---navbar--->
-  <div class="navbar">
-    <a href="#home">
-      <img src="favicon.ico" style="width:70px;height:70px;">
-    </a>
-  </div>
-  <!---content--->
-  <!---home--->
+  <!-- navbar -->
+  <a href="#home">
+    <div class="navbar">
+      <img src="favicon.ico" class="navbar">
+    </div>
+  </a>
+  <!-- content -->
+  <!-- home -->
   <div class="section" id="home">
     <div class="container">
       <div class="contentBox">
@@ -129,7 +148,7 @@ div.navbar{
       </div>
     </div>
   </div>
-  <!---about--->
+  <!-- about -->
   <div class="section" id="about">
     <div class="container">
       <div class="contentBox">
@@ -140,7 +159,7 @@ div.navbar{
       </div>
     </div>
   </div>
-  <!---work 1--->
+  <!-- work 1 -->
   <div class="section" id="work">
     <div class="container">
       <div class="contentBox" style="color:white">
@@ -150,7 +169,7 @@ div.navbar{
       </div>
     </div>
   </div>
-  <!---work 2--->
+  <!-- work 2 --> 
   <div class="section" id="work2">
     <div class="container">
       <div class="contentBox" style="color:white">
@@ -160,7 +179,18 @@ div.navbar{
       </div>
     </div>
   </div>
-  <!---footer--->
+  <!-- work 3 --> 
+  <div class="section" id="work3">
+    <div class="container">
+      <div class="contentBox" style="color:white">
+        <header class="p">
+          Amazon Rain Forest
+        </header>
+      </div>
+    </div>
+  </div>
+  <!-- feel free to add as much work as you want --> 
+  <!-- footer --> 
   <div class="section" id="contact">
     <div class="container">
       <div class="contentBox">
@@ -170,7 +200,7 @@ div.navbar{
       </div>
     </div>
   </div>
-  <!---footer--->
+  <!-- footer --> 
   <div class="section" id="footer">
     <div class="container">
       <div class="contentBox">
@@ -181,7 +211,7 @@ div.navbar{
     </div>
   </div>
 </body>
-<!---
+<!-- 
 Yeah, sorry. I have a bad habit of putting
 unessary comments in the code, to tell
 smart users a little about myself. My
@@ -196,4 +226,4 @@ have fun with the rest of your time on the
 interwebs. bye! (p.s. - contact me here:
 isaacimagine@gmail.com. don't be surprised,
 though, if I don't reply for a while.)
---->
+ --> 
